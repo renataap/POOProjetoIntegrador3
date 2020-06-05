@@ -19,6 +19,13 @@ public class CompromissoSaude {
     private String des_endereco;
     private Vacina vacina;
     private TipoCompromisso tipo_compromisso;
+
+    @Override
+    public String toString() {
+        return "CompromissoSaude{" + "nom_compromisso=" + nom_compromisso + ", dta_compromisso=" + dta_compromisso + ", nom_profissional=" + nom_profissional + ", des_endereco=" + des_endereco + '}';
+    }
+    
+    
     
     public CompromissoSaude (int cod_compromisso_saude, String nom_compromisso, Date dta_compromisso, String nom_profissional, 
             String des_endereco, Vacina vacina, TipoCompromisso tipo_compromisso){
