@@ -13,8 +13,8 @@ public class Tipo_Atividade {
     private int codigo_tipo_atividade;
     private String nome_tipo_atividade;
 
-    public Tipo_Atividade(int codigo_tipo_atividade, String nome_tipo_atividade) {
-        this.codigo_tipo_atividade = codigo_tipo_atividade;
+    public Tipo_Atividade(String nome_tipo_atividade) {
+        
         this.nome_tipo_atividade = nome_tipo_atividade;
     }
 
