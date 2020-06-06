@@ -92,6 +92,7 @@ public class Atividade {
         System.out.println("Foto da atividade : " + this.getUrl_foto_atividade());
         System.out.println("Vídeo da atividade: " + this.getUrl_video_atividade());
         System.out.println("Idade da criança: " + this.getNum_idade_indicada());
+        System.out.println(" ");
     }
     
 
