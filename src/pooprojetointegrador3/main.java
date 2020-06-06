@@ -15,7 +15,9 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Atividade fisica = new Atividade(1, "Futebol", "Chutar a bola", "www.xxx.x", "www.aaa.b", 7);
+        
+        fisica.atividade();
     }
     
 }
