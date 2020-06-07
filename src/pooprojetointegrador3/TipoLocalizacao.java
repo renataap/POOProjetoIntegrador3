@@ -13,6 +13,11 @@ public class TipoLocalizacao {
       
     private int cod_tipo_localizacao;
     private String nom_tipo;
+    
+    public TipoLocalizacao (int cod_tipo_localizacao, String nom_tipo){
+        this.cod_tipo_localizacao = cod_tipo_localizacao;
+        this.nom_tipo = nom_tipo;
+    }
 
     @Override
     public String toString() {
