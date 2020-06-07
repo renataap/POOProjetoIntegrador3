@@ -19,6 +19,7 @@ public class Crianca {
     private Date dta_nascimento;
     private String des_genero;
     private Usuario usuario;
+    private CompromissoSaude compromissoSaude;
 
     public Crianca (int cod_crianca, int cod_usuario, String nom_crianca, Date dta_nascimento, String des_genero, Usuario usuario){
         this.cod_crianca = cod_crianca;
@@ -27,6 +28,7 @@ public class Crianca {
         this.dta_nascimento = dta_nascimento;
         this.des_genero = des_genero;
         this.usuario = usuario;
+        //this.compromissoSaude = compromissoSaude;
     }
     
     
@@ -148,6 +150,20 @@ public class Crianca {
      */
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
+    }
+
+    /**
+     * @return the compromissoSaude
+     */
+    public CompromissoSaude getCompromissoSaude() {
+        return compromissoSaude;
+    }
+
+    /**
+     * @param compromissoSaude the compromissoSaude to set
+     */
+    public void setCompromissoSaude(CompromissoSaude compromissoSaude) {
+        this.compromissoSaude = compromissoSaude;
     }
     
     
