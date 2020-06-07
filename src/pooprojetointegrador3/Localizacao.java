@@ -16,10 +16,26 @@ public class Localizacao {
     private String nom_localizacao;
     private String des_endereco;
     private int num_idade_indicada;
+    private TipoLocalizacao tipolocalizacao;
+    
+    
+    
+    
+    public Localizacao (int cod_localizacao, int cod_tipo_localizacao, String nom_localizacao, 
+            String des_endereco, int num_idade_indicada, TipoLocalizacao tipolocalizacao ){
+        this.cod_localizacao = cod_localizacao;
+        this.cod_tipo_localizacao = cod_tipo_localizacao;
+        this.des_endereco = des_endereco;
+        this.nom_localizacao = nom_localizacao;
+        this.num_idade_indicada = num_idade_indicada;
+        this.tipolocalizacao = tipolocalizacao;
+        
+    }
 
     @Override
     public String toString() {
-        return "Localizacao{" + "cod_localizacao=" + cod_localizacao + ", cod_tipo_localizacao=" + cod_tipo_localizacao + ", nom_localizacao=" + nom_localizacao + ", des_endereco=" + des_endereco + ", num_idade_indicada=" + num_idade_indicada + '}';
+        return "Localizacao{" + "cod_localizacao=" + cod_localizacao + ", cod_tipo_localizacao=" + cod_tipo_localizacao + 
+            ", nom_localizacao=" + nom_localizacao + ", des_endereco=" + des_endereco + ", num_idade_indicada=" + num_idade_indicada + '}';
     }
 
     @Override
@@ -125,6 +141,20 @@ public class Localizacao {
      */
     public void setNum_idade_indicada(int num_idade_indicada) {
         this.num_idade_indicada = num_idade_indicada;
+    }
+
+    /**
+     * @return the tipolocalizacao
+     */
+    public TipoLocalizacao getTipolocalizacao() {
+        return tipolocalizacao;
+    }
+
+    /**
+     * @param tipolocalizacao the tipolocalizacao to set
+     */
+    public void setTipolocalizacao(TipoLocalizacao tipolocalizacao) {
+        this.tipolocalizacao = tipolocalizacao;
     }
     
 }
