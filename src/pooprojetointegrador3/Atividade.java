@@ -5,9 +5,10 @@
  */
 package pooprojetointegrador3;
 
-/**
- *
- * @author W10INfomaX
+/**Classe para objetos do tipo Atividade. Nessa classe será relacionada de acordo com o tipo de atividade, o nome da atividade, descrição da 
+ *  atividade, foto de exemplo da atividade e vídeo exemplificando a atividade.
+ * 
+ * * @author Pedro Leão
  */
 public class Atividade {
     private int codigo_atividade;
