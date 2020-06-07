@@ -18,7 +18,18 @@ public class Crianca {
     private String nom_crianca;
     private Date dta_nascimento;
     private String des_genero;
+    private Usuario usuario;
 
+    public Crianca (int cod_crianca, int cod_usuario, String nom_crianca, Date dta_nascimento, String des_genero, Usuario usuario){
+        this.cod_crianca = cod_crianca;
+        this.cod_usuario = cod_usuario;
+        this.nom_crianca = nom_crianca;
+        this.dta_nascimento = dta_nascimento;
+        this.des_genero = des_genero;
+        this.usuario = usuario;
+    }
+    
+    
     @Override
     public String toString() {
         return "Crianca{" + "cod_crianca=" + cod_crianca + ", cod_usuario=" + cod_usuario + ", nom_crianca=" + nom_crianca + ", dta_nascimento=" + dta_nascimento + ", des_genero=" + des_genero + '}';
@@ -123,6 +134,20 @@ public class Crianca {
      */
     public void setDes_genero(String des_genero) {
         this.des_genero = des_genero;
+    }
+
+    /**
+     * @return the usuario
+     */
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    /**
+     * @param usuario the usuario to set
+     */
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
     
     
