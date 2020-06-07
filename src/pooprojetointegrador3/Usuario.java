@@ -11,19 +11,26 @@ package pooprojetointegrador3;
  */
 public class Usuario {
     
-    private int cod_Usuario;
+    private int cod_usuario;
     private String nom_usuario;
-    private String Des_usuario_crianca;
+    private String des_usuario_crianca;
+    
+    public Usuario (int cod_usuario, String nom_usuario, String des_usuario_crianca){
+        this.cod_usuario = cod_usuario;
+        this.nom_usuario = nom_usuario;
+        this.des_usuario_crianca = des_usuario_crianca;
+          
+    }
 
     @Override
     public String toString() {
-        return "Usuario{" + "cod_Usuario=" + cod_Usuario + ", nom_usuario=" + nom_usuario + ", Des_usuario_crianca=" + Des_usuario_crianca + '}';
+        return "Usuario{" + "cod_Usuario=" + cod_usuario + ", nom_usuario=" + nom_usuario + ", Des_usuario_crianca=" + des_usuario_crianca + '}';
     }
 
     @Override
     public int hashCode() {
         int hash = 7;
-        hash = 41 * hash + this.cod_Usuario;
+        hash = 41 * hash + this.cod_usuario;
         return hash;
     }
 
@@ -39,7 +46,7 @@ public class Usuario {
             return false;
         }
         final Usuario other = (Usuario) obj;
-        if (this.cod_Usuario != other.cod_Usuario) {
+        if (this.cod_usuario != other.cod_usuario) {
             return false;
         }
         return true;
@@ -51,14 +58,14 @@ public class Usuario {
      * @return the cod_Usuario
      */
     public int getCod_Usuario() {
-        return cod_Usuario;
+        return cod_usuario;
     }
 
     /**
      * @param cod_Usuario the cod_Usuario to set
      */
     public void setCod_Usuario(int cod_Usuario) {
-        this.cod_Usuario = cod_Usuario;
+        this.cod_usuario = cod_Usuario;
     }
 
     /**
@@ -79,14 +86,14 @@ public class Usuario {
      * @return the Des_usuario_crianca
      */
     public String getDes_usuario_crianca() {
-        return Des_usuario_crianca;
+        return des_usuario_crianca;
     }
 
     /**
      * @param Des_usuario_crianca the Des_usuario_crianca to set
      */
     public void setDes_usuario_crianca(String Des_usuario_crianca) {
-        this.Des_usuario_crianca = Des_usuario_crianca;
+        this.des_usuario_crianca = Des_usuario_crianca;
     }
     
     
