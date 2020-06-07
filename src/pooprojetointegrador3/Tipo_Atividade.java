@@ -5,9 +5,9 @@
  */
 package pooprojetointegrador3;
 
-/**
+/**Classe para objetos do Tipo_Atividade, onde serão adicionados todos os tipos de atividades presente no app.
  *
- * @author W10INfomaX
+ * @author Pedro Leão
  */
 public class Tipo_Atividade {
     private int codigo_tipo_atividade;
