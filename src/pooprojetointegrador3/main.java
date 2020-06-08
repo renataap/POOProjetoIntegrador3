@@ -31,7 +31,6 @@ public class main {
         Vacina vacina1 = new Vacina(1, "BCG", 7);
         vacina1.vacina();
         
-      
     }
     
 }

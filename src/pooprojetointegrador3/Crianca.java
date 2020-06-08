@@ -170,7 +170,7 @@ public class Crianca {
     public void Crianca() {
         
         System.out.println("------Cadastro da Criança-------");
-        System.out.println("Nome da atividade: " + this.getNom_crianca());
+        System.out.println("Nome da Criança: " + this.getNom_crianca());
         System.out.println("Data de Nascimento: " + this.getDta_nascimento());
         System.out.println("Sexo: " + this.getDes_genero());
         System.out.println(" ");
