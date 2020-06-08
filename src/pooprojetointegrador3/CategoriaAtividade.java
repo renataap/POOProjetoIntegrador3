@@ -8,7 +8,7 @@ package pooprojetointegrador3;
 import java.util.List;
 import java.util.Objects;
 
-/**
+/**Classe para objetos da CategoriaAtividade.
  *
  * @author pdmay
  */

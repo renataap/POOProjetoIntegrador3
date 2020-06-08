@@ -5,7 +5,7 @@
  */
 package pooprojetointegrador3;
 
-/**
+/**Classe para objetos do TipoLocalização.
  *
  * @author Daniel Alves
  */
