@@ -62,4 +62,9 @@ public class Vacina {
         this.num_idade_vacina = num_idade_vacina;
     }
     
+    public void vacina(){
+        System.out.println("-----Descrição-------");
+        System.out.println("Nome da vacina: " + this.getNom_vacina());
+        System.out.println("Idade da Criança: " + this.getNum_idade_vacina());
+    }
 }

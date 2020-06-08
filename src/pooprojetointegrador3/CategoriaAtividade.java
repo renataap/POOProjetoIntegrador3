@@ -52,6 +52,11 @@ public class CategoriaAtividade {
     private String Nome;
     private List<Tipo_Atividade> tipo_atividade = new ArrayList<>();
 
+    public CategoriaAtividade() {
+    }
+    
+    
+
     /**
      * @return the Codigo
      */

@@ -38,6 +38,11 @@ public class CompromissoSaude {
         this.tipo_compromisso = tipo_compromisso;
     }
 
+    public CompromissoSaude() {
+    }
+    
+    
+
     /**
      * @return the cod_compromisso_saude
      */

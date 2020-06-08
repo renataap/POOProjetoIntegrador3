@@ -77,6 +77,11 @@ public class Dicas {
     private Atividade atividade;
     private Usuario usuario;
 
+    public Dicas() {
+    }
+    
+    
+
     /**
      * @return the Nome
      */

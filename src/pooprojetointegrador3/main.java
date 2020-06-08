@@ -21,6 +21,16 @@ public class main {
         fisica1.atividade();
         fisica2.atividade();
         
+        CompromissoSaude compromisso1 = new CompromissoSaude();
+        compromisso1.setNom_compromisso("Dentista");
+        compromisso1.setDes_endereco("Rua 2 Número 555");
+        
+        Dicas dica1 = new Dicas();
+        dica1.setNome("Dicas para estudos");
+        
+        Vacina vacina1 = new Vacina(1, "BCG", 7);
+        vacina1.vacina();
+        
       
     }
     
