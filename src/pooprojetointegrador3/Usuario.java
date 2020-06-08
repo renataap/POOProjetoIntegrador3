@@ -5,6 +5,8 @@
  */
 package pooprojetointegrador3;
 
+import java.util.List;
+
 /**
  *
  * @author Daniel Alves
@@ -14,6 +16,8 @@ public class Usuario {
     private int cod_usuario;
     private String nom_usuario;
     private String des_usuario_crianca;
+    private List<Atividade> atividade;
+    private List<Dicas> dicas;
     
     public Usuario (int cod_usuario, String nom_usuario, String des_usuario_crianca){
         this.cod_usuario = cod_usuario;

@@ -74,6 +74,8 @@ public class Dicas {
     private int IdadeIndicada;
     private String URLLink;
     private int Valor;
+    private Atividade atividade;
+    private Usuario usuario;
 
     /**
      * @return the Nome

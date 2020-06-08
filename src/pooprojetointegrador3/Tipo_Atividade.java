@@ -5,6 +5,8 @@
  */
 package pooprojetointegrador3;
 
+import java.util.List;
+
 /**Classe para objetos do Tipo_Atividade, onde serão adicionados todos os tipos de atividades presente no app.
  *
  * @author Pedro Leão
@@ -12,6 +14,8 @@ package pooprojetointegrador3;
 public class Tipo_Atividade {
     private int codigo_tipo_atividade;
     private String nome_tipo_atividade;
+    private CategoriaAtividade categoriaatividade;
+    private List<Atividade> atividade;
 
     public Tipo_Atividade(String nome_tipo_atividade) {
         
