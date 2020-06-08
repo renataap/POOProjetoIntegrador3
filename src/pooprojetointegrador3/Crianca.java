@@ -164,7 +164,17 @@ public class Crianca {
      */
     public void setCompromissoSaude(CompromissoSaude compromissoSaude) {
         this.compromissoSaude = compromissoSaude;
+        
     }
+        
+    public void Crianca() {
+        
+        System.out.println("------Cadastro da Criança-------");
+        System.out.println("Nome da atividade: " + this.getNom_crianca());
+        System.out.println("Data de Nascimento: " + this.getDta_nascimento());
+        System.out.println("Sexo: " + this.getDes_genero());
+        System.out.println(" ");
     
+    }  
     
 }

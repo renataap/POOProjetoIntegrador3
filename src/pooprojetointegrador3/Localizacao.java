@@ -157,4 +157,14 @@ public class Localizacao {
         this.tipolocalizacao = tipolocalizacao;
     }
     
+    public void Crianca() {
+        
+        System.out.println("------Localização-------");
+        System.out.println("Localização: " + this.getNom_localizacao());
+        System.out.println("Endereço: " + this.getDes_endereco());
+        System.out.println("Idade: " + this.getNum_idade_indicada());
+        System.out.println(" ");
+        
+    }
+    
 }
