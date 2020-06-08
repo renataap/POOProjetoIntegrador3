@@ -5,6 +5,7 @@
  */
 package pooprojetointegrador3;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**Classe para objetos do tipo Atividade. Nessa classe será relacionada de acordo com o tipo de atividade, o nome da atividade, descrição da 
@@ -21,7 +22,7 @@ public class Atividade {
     private int num_idade_indicada;
     private Tipo_Atividade tipo_atividade;
     private Usuario usuario;
-    private List<Dicas> dicas;
+    private List<Dicas> dicas = new ArrayList<>();
 
     public Atividade(int codigo_atividade, String nome_atividade, String descricao_atividade, String url_foto_atividade, String url_video_atividade, int num_idade_indicada) {
         this.codigo_atividade = codigo_atividade;

@@ -5,6 +5,7 @@
  */
 package pooprojetointegrador3;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -49,7 +50,7 @@ public class CategoriaAtividade {
     }
     private int Codigo;
     private String Nome;
-    private List<Tipo_Atividade> tipo_atividade;
+    private List<Tipo_Atividade> tipo_atividade = new ArrayList<>();
 
     /**
      * @return the Codigo

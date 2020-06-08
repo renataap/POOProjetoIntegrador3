@@ -5,6 +5,7 @@
  */
 package pooprojetointegrador3;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**Classe para objetos do tipo Usuario. 
@@ -17,7 +18,7 @@ public class Usuario {
     private String nom_usuario;
     private String des_usuario_crianca;
     private List<Atividade> atividade;
-    private List<Dicas> dicas;
+    private List<Dicas> dicas = new ArrayList<>();
     
     public Usuario (int cod_usuario, String nom_usuario, String des_usuario_crianca){
         this.cod_usuario = cod_usuario;

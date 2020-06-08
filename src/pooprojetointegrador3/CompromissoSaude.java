@@ -28,7 +28,7 @@ public class CompromissoSaude {
     
     
     public CompromissoSaude (int cod_compromisso_saude, String nom_compromisso, Date dta_compromisso, String nom_profissional, 
-            String des_endereco, Vacina vacina, TipoCompromisso tipo_compromisso){
+            String des_endereco, Vacina vacina,TipoCompromisso tipo_compromisso){
         this.cod_compromisso_saude = cod_compromisso_saude;
         this.des_endereco = des_endereco;
         this.dta_compromisso = dta_compromisso;

@@ -21,7 +21,7 @@ public class main {
         fisica1.atividade();
         fisica2.atividade();
         
-        
+      
     }
     
 }
