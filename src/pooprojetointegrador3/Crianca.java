@@ -7,7 +7,7 @@ package pooprojetointegrador3;
 
 import java.util.Date;
 
-/**
+/**Classe para objetos do tipo Criança. Nome, data de nascimento, genero.
  *
  * @author Daniel Alves
  */

@@ -7,7 +7,7 @@ package pooprojetointegrador3;
 
 import java.util.Objects;
 
-/**
+/**Classe para objeto do tipo Dicas. Nome, descrição e fotos relacionada a dicas.
  *
  * @author pdmay
  */

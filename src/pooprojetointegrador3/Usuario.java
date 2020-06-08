@@ -7,7 +7,7 @@ package pooprojetointegrador3;
 
 import java.util.List;
 
-/**
+/**Classe para objetos do tipo Usuario. 
  *
  * @author Daniel Alves
  */

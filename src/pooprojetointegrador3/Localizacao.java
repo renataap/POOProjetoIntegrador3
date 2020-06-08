@@ -5,7 +5,7 @@
  */
 package pooprojetointegrador3;
 
-/**
+/**Classe para objetos do tipo Localização. Nome da localização, endereço.
  *
  * @author Daniel Alves
  */

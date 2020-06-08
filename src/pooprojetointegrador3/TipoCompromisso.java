@@ -5,7 +5,7 @@
  */
 package pooprojetointegrador3;
 
-/**
+/**Classe para objetos do tipo TipoCompromisso. Nome do tipo de compromisso.
  *
  * @author Renata
  */

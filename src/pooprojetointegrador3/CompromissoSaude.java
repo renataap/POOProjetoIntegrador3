@@ -7,7 +7,7 @@ package pooprojetointegrador3;
 
 import java.util.Date;
 
-/**
+/**Classe para objetos do tipo CompromissoSaude. Nome do compromisso, data, nome do profissional, endereço.
  *
  * @author Renata
  */

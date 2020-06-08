@@ -5,7 +5,7 @@
  */
 package pooprojetointegrador3;
 
-/**
+/**Classe para objetos do tipo Vacina. Nome da vacina.
  *
  * @author Renata
  */
